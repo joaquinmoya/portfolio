@@ -1,5 +1,19 @@
 import React from 'react';
 import styled from 'styled-components';
+import mision from '../img/mision.jpeg';
+import logo_joel from '../img/logo_joel.png';
+import logo_carpsa from '../img/logo_carpsa.png';
+import trabajador from '../img/trabajador.jpg';
+import bebidas from '../img/bebidas.png';
+import buscadorImagenes from '../img/buscadorImagenes.png';
+import crud from '../img/crud.png';
+import letras from '../img/letras.png';
+import noticias from '../img/noticias.png';
+import mern from '../img/mern.png';
+import productHunt from '../img/producthunt.png';
+import hotelgatsby from '../img/hotelgatsby.png';
+
+
 
 const MainProjects = styled.main`
     display:flex;
@@ -160,20 +174,20 @@ const Projects = () => {
             <H2 style={{marginBottom:"3rem"}}>Projects</H2>
             <H3>Freelance Projects</H3>
             <ProjectsContainer>
-                <Li style={{backgroundImage:"url('/img/mision.jpeg')"}}>
+                <Li style={{backgroundImage:`url(${mision})`}}>
                     <BackgroundImage style={{backgroundColor:"rgba(4,67,148,0.8)"}}>
                     <TextProject>
                         <H4>Joel</H4>
-                        <Img src='/img/logo_joel.png'/>
+                        <Img src={logo_joel}/>
                         <A href="https://joel.com.ar/" target="_blank">Visit website &#9656;</A>
                     </TextProject>        
                     </BackgroundImage>          
                 </Li>
-                <Li style={{backgroundImage:"url('/img/trabajador.jpg')"}}>
+                <Li style={{backgroundImage:`url(${trabajador})`}}>
                 <BackgroundImage style={{backgroundColor:"rgba(213,176,139,0.85)"}}>
                 <TextProject style={{gap:"15px"}}>
                         <H4>Carpsa</H4>
-                        <Img style={{maxWidth:"150px"}} src='/img/logo_carpsa.png'/>
+                        <Img style={{maxWidth:"150px"}} src={logo_carpsa}/>
                         <A href="https://carpsamaderas.com.ar/" target="_blank">Visit website &#9656;</A>
                     </TextProject>  
                 </BackgroundImage>        
@@ -181,7 +195,7 @@ const Projects = () => {
             </ProjectsContainer>
             <H3>Side Projects</H3>
             <ProjectsContainer>
-                <Li style={{backgroundImage:"url('/img/bebidas.png')"}}>
+                <Li style={{backgroundImage:`url(${bebidas})`}}>
                     <BackgroundImage style={{backgroundColor:"rgba(33,37,41,0.7)"}}>
                         <TextProject>
                             <H4>Bebidas</H4>
@@ -189,7 +203,7 @@ const Projects = () => {
                         </TextProject>        
                     </BackgroundImage> 
                 </Li>
-                <Li style={{backgroundImage:"url('/img/letras.png')"}}>
+                <Li style={{backgroundImage:`url(${letras})`}}>
                     <BackgroundImage style={{backgroundColor:"rgba(33,37,41,0.7)"}}>
                         <TextProject>
                             <H4>Letras</H4>
@@ -197,7 +211,7 @@ const Projects = () => {
                         </TextProject>        
                     </BackgroundImage> 
                 </Li>
-                <Li style={{backgroundImage:"url('/img/noticias.png')"}}>
+                <Li style={{backgroundImage:`url(${noticias})`}}>
                     <BackgroundImage style={{backgroundColor:"rgba(33,37,41,0.7)"}}>
                         <TextProject>
                             <H4>Noticias</H4>
@@ -205,7 +219,7 @@ const Projects = () => {
                         </TextProject>        
                     </BackgroundImage> 
                 </Li>
-                <Li style={{backgroundImage:"url('/img/buscadorImagenes.png')"}}>
+                <Li style={{backgroundImage:`url(${buscadorImagenes})`}}>
                     <BackgroundImage style={{backgroundColor:"rgba(33,37,41,0.7)"}}>
                         <TextProject>
                             <H4>Buscador Imagenes</H4>
@@ -213,7 +227,7 @@ const Projects = () => {
                         </TextProject>        
                     </BackgroundImage> 
                 </Li>
-                <Li style={{backgroundImage:"url('/img/mern.png')"}}>
+                <Li style={{backgroundImage:`url(${mern})`}}>
                     <BackgroundImage style={{backgroundColor:"rgba(33,37,41,0.7)"}}>
                         <TextProject>
                             <H4>Administrador de Proyectos</H4>
@@ -221,7 +235,7 @@ const Projects = () => {
                         </TextProject>        
                     </BackgroundImage> 
                 </Li>
-                <Li style={{backgroundImage:"url('/img/crud.png')"}}>
+                <Li style={{backgroundImage:`url(${crud})`}}>
                     <BackgroundImage style={{backgroundColor:"rgba(33,37,41,0.7)"}}>
                         <TextProject>
                             <H4>Listado de Productos</H4>
@@ -229,7 +243,7 @@ const Projects = () => {
                         </TextProject>        
                     </BackgroundImage> 
                 </Li>
-                <Li style={{backgroundImage:"url('/img/producthunt.png')"}}>
+                <Li style={{backgroundImage:`url(${productHunt})`}}>
                     <BackgroundImage style={{backgroundColor:"rgba(33,37,41,0.7)"}}>
                         <TextProject>
                             <H4>Imitación Product Hunt</H4>
@@ -237,7 +251,7 @@ const Projects = () => {
                         </TextProject>        
                     </BackgroundImage> 
                 </Li>
-                <Li style={{backgroundImage:"url('/img/hotelgatsby.png')"}}>
+                <Li style={{backgroundImage:`url(${hotelgatsby})`}}>
                     <BackgroundImage style={{backgroundColor:"rgba(33,37,41,0.7)"}}>
                         <TextProject>
                             <H4>Hotel Gatsby</H4>

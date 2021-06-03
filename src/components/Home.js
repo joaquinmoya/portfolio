@@ -1,5 +1,6 @@
 import React from 'react';
 import styled, { keyframes} from 'styled-components';
+import fotoYo from '../img/yo1.png';
 
 const MainHome = styled.main`
     display: grid;
@@ -116,7 +117,7 @@ const Home = () => {
         </PersonalInfoContainer>
             
         <ImageContainer>
-            <Img src='/img/yo1.png' alt='yo'/>
+            <Img src={fotoYo} alt='yo'/>
         </ImageContainer>
 
     </MainHome>  
