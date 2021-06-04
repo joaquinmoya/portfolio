@@ -107,11 +107,11 @@ const Home = () => {
         <H1>Joaquin Moya <Hand>&#128075;</Hand></H1>
         <P> Full Stack Web Developer</P>
             <IconsContainer >
-                <A href="https://www.linkedin.com/in/joaquin-moya/" target="_blank" className="fa fa-linkedin"></A>
-                <A href="https://github.com/joaquinmoya" target="_blank" className="fa fa-github"></A>
-                <A href="https://www.facebook.com/joaquinmoyavargas/" target="_blank" className="fa fa-facebook"></A>
-                <A href="https://twitter.com/joaquinmoya97" target="_blank" className="fa fa-twitter"></A>   
-                <A href="https://www.instagram.com/joaquinmoya08/" target="_blank" className="fa fa-instagram"></A>
+                <A href="https://www.linkedin.com/in/joaquin-moya/" target="_blank" className="fa fa-linkedin" rel="noopener"></A>
+                <A href="https://github.com/joaquinmoya" target="_blank" className="fa fa-github" rel="noopener"></A>
+                <A href="https://www.facebook.com/joaquinmoyavargas/" target="_blank" className="fa fa-facebook" rel="noopener"></A>
+                <A href="https://twitter.com/joaquinmoya97" target="_blank" className="fa fa-twitter" rel="noopener"></A>   
+                <A href="https://www.instagram.com/joaquinmoya08/" target="_blank" className="fa fa-instagram" rel="noopener"></A>
                 
             </IconsContainer>
         </PersonalInfoContainer>

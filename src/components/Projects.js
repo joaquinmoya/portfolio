@@ -178,8 +178,8 @@ const Projects = () => {
                     <BackgroundImage style={{backgroundColor:"rgba(4,67,148,0.8)"}}>
                     <TextProject>
                         <H4>Joel</H4>
-                        <Img src={logo_joel} alt="foto de empresa joel"/>
-                        <A href="https://joel.com.ar/" target="_blank">Visit website &#9656;</A>
+                        <Img src={logo_joel} alt="imagen logo joel"/>
+                        <A href="https://joel.com.ar/" target="_blank" rel="noopener">Visit website &#9656;</A>
                     </TextProject>        
                     </BackgroundImage>          
                 </Li>
@@ -187,8 +187,8 @@ const Projects = () => {
                 <BackgroundImage style={{backgroundColor:"rgba(213,176,139,0.85)"}}>
                 <TextProject style={{gap:"15px"}}>
                         <H4>Carpsa</H4>
-                        <Img style={{maxWidth:"150px"}} src={logo_carpsa} alt="foto de empresa carpsa"/>
-                        <A href="https://carpsamaderas.com.ar/" target="_blank">Visit website &#9656;</A>
+                        <Img style={{maxWidth:"150px"}} src={logo_carpsa} alt="imagen logo carpsa"/>
+                        <A href="https://carpsamaderas.com.ar/" target="_blank" rel="noopener">Visit website &#9656;</A>
                     </TextProject>  
                 </BackgroundImage>        
                 </Li>
@@ -199,7 +199,7 @@ const Projects = () => {
                     <BackgroundImage style={{backgroundColor:"rgba(33,37,41,0.7)"}}>
                         <TextProject>
                             <H4>Bebidas</H4>
-                            <A href="https://github.com/joaquinmoya/recetas_tragos" target="_blank">Github repository &#9656;</A>
+                            <A href="https://github.com/joaquinmoya/recetas_tragos" target="_blank" rel="noopener">Github repository &#9656;</A>
                         </TextProject>        
                     </BackgroundImage> 
                 </Li>
@@ -207,7 +207,7 @@ const Projects = () => {
                     <BackgroundImage style={{backgroundColor:"rgba(33,37,41,0.7)"}}>
                         <TextProject>
                             <H4>Letras</H4>
-                            <A href="https://github.com/joaquinmoya/letras" target="_blank">Github repository &#9656;</A>
+                            <A href="https://github.com/joaquinmoya/letras" target="_blank" rel="noopener">Github repository &#9656;</A>
                         </TextProject>        
                     </BackgroundImage> 
                 </Li>
@@ -215,7 +215,7 @@ const Projects = () => {
                     <BackgroundImage style={{backgroundColor:"rgba(33,37,41,0.7)"}}>
                         <TextProject>
                             <H4>Noticias</H4>
-                            <A href="https://github.com/joaquinmoya/noticias" target="_blank">Github repository &#9656;</A>
+                            <A href="https://github.com/joaquinmoya/noticias" target="_blank" rel="noopener">Github repository &#9656;</A>
                         </TextProject>        
                     </BackgroundImage> 
                 </Li>
@@ -223,7 +223,7 @@ const Projects = () => {
                     <BackgroundImage style={{backgroundColor:"rgba(33,37,41,0.7)"}}>
                         <TextProject>
                             <H4>Buscador Imagenes</H4>
-                            <A href="https://github.com/joaquinmoya/pixabay" target="_blank">Github repository &#9656;</A>
+                            <A href="https://github.com/joaquinmoya/pixabay" target="_blank" rel="noopener">Github repository &#9656;</A>
                         </TextProject>        
                     </BackgroundImage> 
                 </Li>
@@ -231,7 +231,7 @@ const Projects = () => {
                     <BackgroundImage style={{backgroundColor:"rgba(33,37,41,0.7)"}}>
                         <TextProject>
                             <H4>Administrador de Proyectos</H4>
-                            <A href="https://github.com/joaquinmoya/administrador_de_proyectos" target="_blank">Github repository &#9656;</A>
+                            <A href="https://github.com/joaquinmoya/administrador_de_proyectos" target="_blank" rel="noopener">Github repository &#9656;</A>
                         </TextProject>        
                     </BackgroundImage> 
                 </Li>
@@ -239,7 +239,7 @@ const Projects = () => {
                     <BackgroundImage style={{backgroundColor:"rgba(33,37,41,0.7)"}}>
                         <TextProject>
                             <H4>Listado de Productos</H4>
-                            <A href="https://github.com/joaquinmoya/crud_redux" target="_blank">Github repository &#9656;</A>
+                            <A href="https://github.com/joaquinmoya/crud_redux" target="_blank" rel="noopener">Github repository &#9656;</A>
                         </TextProject>        
                     </BackgroundImage> 
                 </Li>
@@ -247,7 +247,7 @@ const Projects = () => {
                     <BackgroundImage style={{backgroundColor:"rgba(33,37,41,0.7)"}}>
                         <TextProject>
                             <H4>Imitación Product Hunt</H4>
-                            <A href="https://github.com/joaquinmoya/product_hunt_next" target="_blank">Github repository &#9656;</A>
+                            <A href="https://github.com/joaquinmoya/product_hunt_next" target="_blank" rel="noopener">Github repository &#9656;</A>
                         </TextProject>        
                     </BackgroundImage> 
                 </Li>
@@ -255,7 +255,7 @@ const Projects = () => {
                     <BackgroundImage style={{backgroundColor:"rgba(33,37,41,0.7)"}}>
                         <TextProject>
                             <H4>Hotel Gatsby</H4>
-                            <A href="https://github.com/joaquinmoya/hotel_gatsby" target="_blank">Github repository &#9656;</A>
+                            <A href="https://github.com/joaquinmoya/hotel_gatsby" target="_blank" rel="noopener">Github repository &#9656;</A>
                         </TextProject>        
                     </BackgroundImage> 
                 </Li>
