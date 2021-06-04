@@ -117,7 +117,7 @@ const Home = () => {
         </PersonalInfoContainer>
             
         <ImageContainer>
-            <Img src={fotoYo} alt='yo'/>
+            <Img src={fotoYo} alt='foto de joaquin moya'/>
         </ImageContainer>
 
     </MainHome>  

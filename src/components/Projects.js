@@ -178,7 +178,7 @@ const Projects = () => {
                     <BackgroundImage style={{backgroundColor:"rgba(4,67,148,0.8)"}}>
                     <TextProject>
                         <H4>Joel</H4>
-                        <Img src={logo_joel}/>
+                        <Img src={logo_joel} alt="foto de empresa joel"/>
                         <A href="https://joel.com.ar/" target="_blank">Visit website &#9656;</A>
                     </TextProject>        
                     </BackgroundImage>          
@@ -187,7 +187,7 @@ const Projects = () => {
                 <BackgroundImage style={{backgroundColor:"rgba(213,176,139,0.85)"}}>
                 <TextProject style={{gap:"15px"}}>
                         <H4>Carpsa</H4>
-                        <Img style={{maxWidth:"150px"}} src={logo_carpsa}/>
+                        <Img style={{maxWidth:"150px"}} src={logo_carpsa} alt="foto de empresa carpsa"/>
                         <A href="https://carpsamaderas.com.ar/" target="_blank">Visit website &#9656;</A>
                     </TextProject>  
                 </BackgroundImage>        
